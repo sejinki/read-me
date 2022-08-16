@@ -60,14 +60,15 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) {console.log(data)}
 function promptUser() {
     inquirer
         .prompt(
             questions
         )
         .then((answers) => {
-            // Use user feedback for... whatever!!
+            let markdown = generateMarkdown(answers);
+            writeToFile("index.md", markdown)
             console.log(answers);
         })
         .catch((error) => {
