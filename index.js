@@ -60,7 +60,11 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {console.log(data)}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(`/Users/sejinki/Desktop/Homework/-read-me-/${fileName}`, data);
+    console.log("test");
+}
+
 function promptUser() {
     inquirer
         .prompt(
@@ -68,7 +72,7 @@ function promptUser() {
         )
         .then((answers) => {
             let markdown = generateMarkdown(answers);
-            writeToFile("index.md", markdown)
+            writeToFile("readme.md", markdown)
             console.log(answers);
         })
         .catch((error) => {
