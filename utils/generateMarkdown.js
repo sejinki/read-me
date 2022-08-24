@@ -1,6 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -13,15 +15,31 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  return # ${data.description}
-  return # ${data.name}
-  return # ${data.installation}
-  return # ${data.usage}
-  return # ${data.contribution}
-  return # ${data.test}
-  return # ${data.license}
-  return # ${data.username}
-  return # ${data.email}
+  ${renderLicenseBadge(data.license)}
+  ## ReadMe Description:
+  ${data.description}
+  ## Table of Contents:
+  * [Installation](#installation)
+  * [Contributors](#contributors)
+  * [Usage](#usage)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [License](#license)
+  ## Lead Name:
+  ${data.name}
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+  ## Contributors
+  ${data.contribution}
+  ## Tests
+  ${data.test}
+  ## License
+  ${data.license}
+  ## Questions
+  Github: [${data.username}](https://github.com/${data.username}/)
+  Email: ${data.email}
 `;
 }
 
