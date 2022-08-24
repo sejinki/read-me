@@ -1,6 +1,7 @@
-# Title
-  ## ReadMe Description:
-  this
+# ReadMe
+  ![Github License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  ## ReadMe Description
+  homework challenge
   ## Table of Contents:
   * [Installation](#installation)
   * [Contributors](#contributors)
@@ -8,18 +9,19 @@
   * [Tests](#tests)
   * [Questions](#questions)
   * [License](#license)
+  * [Description](#description)
   ## Lead Name:
-  alsdkfjas'dkfjadf
+  sejin
   ## Installation
-  asdfasdf
+  finish homework
   ## Usage
-  asdasgweg
+  finish homework
   ## Contributors
   undefined
   ## Tests
-  asdgaeg
+  finish it
   ## License
-  ISC
+  Apache_2.0
   ## Questions
-  Github: [sadboitay](https://www.linkedin.com/in/sadboitay/)
-  Email: kisejin2015@gmail.com
+  Github: [sejinki](https://github.com/sejinki/)
+  Email: sejinki
