@@ -16,7 +16,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
-  ## ReadMe Description:
+  ## ReadMe Description
   ${data.description}
   ## Table of Contents:
   * [Installation](#installation)
@@ -25,6 +25,7 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
   * [License](#license)
+  * [Description](#description)
   ## Lead Name:
   ${data.name}
   ## Installation
