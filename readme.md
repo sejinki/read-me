@@ -1,28 +1,28 @@
-# asdfasdf
+# ReadMe File
   ![Github License](https://img.shields.io/badge/License-ISC-blue.svg)
   ## ReadMe Description
-  asdfasdf
+  home work 9
   ## Table of Contents:
   * [Installation](#installation)
   * [Contributors](#contributors)
   * [Usage](#usage)
-  * Link to deployed app: 
+  * Link to demo of code: https://drive.google.com/file/d/1ZsAyxVMoO9xMN2ueYd_5tfwT5GO5XUHE/view
   * [Tests](#tests)
   * [Questions](#questions)
   * [License](#license)
   * [Description](#description)
   ## Lead Name:
-  asdfasdf
+  sejin
   ## Installation
-  asdfasdf
+  finish the homework
   ## Usage
-  asdfasdf
+  do it
   ## Contributors
   undefined
   ## Tests
-  asdfasdf
+  yup
   ## License
   ISC
   ## Questions
-  Github: [asdfasd](https://github.com/asdfasd/)
-  Email: asdf
+  Github: [sejinki](https://github.com/sejinki/)
+  Email: sejinki
