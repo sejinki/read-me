@@ -61,7 +61,9 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFileSync(`/Users/sejinki/Desktop/Homework/-read-me-/${fileName}`, data);
+    fs.writeFileSync(fileName, data);
+
+    // (`/Users/sejinki/Desktop/Homework/-read-me-/${fileName}
     console.log("test");
 }
 
